@@ -1,7 +1,79 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
+
+#container{
+    border:1px solid;
+    height:auto;
+}
+header{
+    border-bottom:1px solid;
+    padding:10px;
+}
+.header-content1{
+    background: lightblue;
+    border:1px solid;
+}
+.header-content form{
+    display:inline-block;
+    float: right;
+    margin-top: 37px;
+}
+.header-content1 form input{
+    height:25px
+}
+
+.header-content2 navbar nav ul{
+    text-align: center;
+    border:1px solid;
+    padding: 5px;
+}
+.header-content2 navbar nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 30px;
+}
+.main-content{
+    width:100%;
+    height:100%;
+}
+.main-content{
+    padding: 10px;
+}
+.page-content{
+    border:1px solid;
+    vertical-align:top;
+}
+.page-content ul li{
+    margin:10px 0px;
+}
+.sidebar-content navbar nav ul li{
+    list-style: none;
+}
+.main-content aside,.main-content section{
+    display: inline-block;
+    border: 1px solid;
+    margin:10px
+    
+}
+aside{
+    width:30%;
+    height: 100vh;
+}
+section{
+    width:35%;
+    height:100vh;
+}
+.post-image post-img{
+    display: inline-block;
+}
+.post-img{
+    width:150px;
+    height:200px;
+    margin:10px
+}
+footer{
+    border:1px solid;
+    padding:10px;   
+    margin:10px;
 }
