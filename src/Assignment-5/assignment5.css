@@ -1,7 +1,53 @@
 /* Our CSS file. */
 
-
 .container, .content {
 width: 100%;
 height: 100%;
+}
+#container{
+    background:lightgrey;
+    padding:40px;
+}
+body{
+    width:60%;
+    padding:50px 0px;
+    margin:20px;
+}
+.card{
+    height: 400px;
+    border:1px solid;
+    margin: 30px 20px;
+    background: white;
+    display:flex;
+}
+.left{
+    width:30%;
+    height:100%;
+    background:rgb(167, 212, 76) ;
+    
+}
+.right{
+    margin:40px;
+    padding: 10px;
+}
+.right p{
+    margin:40px 0px;
+}
+.image{
+    margin: -60px 0px;
+  width: 350px;
+  height:350px;
+}
+.img{
+    margin: 0px -20px;
+  width: 350px;
+  height:350px;
+}
+.card section a{
+    text-decoration: none;
+    border: 1px solid  rgb(167, 212, 76);
+    border-radius: 15%/50%;
+    background: rgb(167, 212, 76);
+    padding: 7px 17px;
+    color:white;  
 }
